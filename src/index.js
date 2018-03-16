@@ -10,7 +10,7 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
   	};
   	// ищем пары в массиве, записывая значения и их индексы в переменные f,s,t (first,second,third)
   	for (var i = 0; i < preferences.length; i++) {
-  		var	f = preferences[i];  		
+  		var f = preferences[i];  		
  		var s = preferences[f-1]; 		 
  		var t = preferences[s-1]; 		
  		var si = f - 1; // индексы второго и третьего элементов (индексом первого элемента считаем i)
